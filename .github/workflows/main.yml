@@ -5,7 +5,8 @@ name: CI
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
-  push:
+  push: 
+    branches: [ main ]
 
 
 jobs:
@@ -21,4 +22,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: test leap year
-        run: java LeapYear
+        run: java LeapYearTest.java
