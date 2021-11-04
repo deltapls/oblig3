@@ -24,7 +24,7 @@ public class LeapYear {
         if (year % 400 == 0) {
             return true;
         }
-
+        
         return false;
     }
 }
