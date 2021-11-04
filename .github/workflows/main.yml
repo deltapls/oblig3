@@ -16,7 +16,7 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Test
-        run: java LeapYearTest.java
+        run: java -cp ./test;. LeapYearTest.java
 
    
 
