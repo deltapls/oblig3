@@ -16,7 +16,8 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Test
-        run: java workspace/src/test/LeapYearTest
+        run: javac LeapYearTest.java
+             java LeapYearTest
 
    
 
