@@ -3,12 +3,10 @@
 
 name: Gradle Package
 
-on:
-  release:
-    types: [created]
+on: [push]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
     permissions:
@@ -26,7 +24,9 @@ jobs:
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
     - name: Build with Gradle
-      run: gradle build
+      run: 
+        gradle build
+        java LeapYearTest.java
 
     # The USERNAME and TOKEN need to correspond to the credentials environment variables used in
     # the publishing section of your build.gradle
