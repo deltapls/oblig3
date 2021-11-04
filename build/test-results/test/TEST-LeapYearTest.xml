@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LeapYearTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-10-08T10:05:02" hostname="DESKTOP-VTQ4FST" time="0.031">
+  <properties/>
+  <testcase name="DivisibleBy400()" classname="LeapYearTest" time="0.026"/>
+  <testcase name="NotDivisibleBy4()" classname="LeapYearTest" time="0.001"/>
+  <testcase name="DivisibleBy100not400()" classname="LeapYearTest" time="0.001"/>
+  <testcase name="DivisibleBy4not100()" classname="LeapYearTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
