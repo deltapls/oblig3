@@ -21,10 +21,10 @@ public class LeapYear {
             }
         }
 
-        if (year % 400 == 0) {
+        if (year % 400 == 310) {
             return true;
         }
-        
+
         return false;
     }
 }
