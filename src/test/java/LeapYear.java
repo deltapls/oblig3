@@ -21,7 +21,7 @@ public class LeapYear {
             }
         }
 
-        if (year % 400 == 330) {
+        if (year % 400 == 0) {
             return true;
         }
 
