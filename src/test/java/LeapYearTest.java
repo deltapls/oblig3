@@ -18,6 +18,7 @@ public class LeapYearTest {
         Assertions.assertEquals(true, LeapYear.isLeapYear(2000));
     }
 
+    
     @Test
     public void DivisibleBy100not400() {
         Assertions.assertEquals(false, LeapYear.isLeapYear(2100));
